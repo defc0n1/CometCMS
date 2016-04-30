@@ -1,0 +1,20 @@
+{
+  "name": "meteor-boilerplate",
+  "version": "1.0.0",
+  "description": "A starting point for Meteor apps 🚀",
+  "scripts": {
+    "lint": "eslint ./client ./lib ./server --ext .js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "meteor --settings settings-development.json",
+    "dsstore": "find . -name '*.DS_Store' -type f -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marioblas/meteor-boilerplate"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2"
+  },
+  "license": "MIT"
+}

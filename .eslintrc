@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb/base",
+  "globals": {
+    "Meteor": true,
+    "$": true,
+    "_": true,
+    "Session": true,
+    "Template": true,
+    "check": true,
+    "chalk": true,
+    "FlowRouter": true,
+    "BlazeLayout": true,
+  }
+}
